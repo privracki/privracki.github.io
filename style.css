@@ -11,4 +11,7 @@ h1 {
 }
 #pdf > li {
 	background-color: orange;
+	margin: 1em;
+	padding: 1em;
+	text-decoration: none;
 }
