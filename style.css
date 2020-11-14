@@ -3,7 +3,7 @@ body {
 	background-color: black;
 	color: white;
 	margin: 0 auto;
-	padding: 0 3% 10em;
+	padding: 0 3% 8em;
 	max-width: 40em;
 	font-size: 24px;
 	line-height: 1.1em;
@@ -15,17 +15,31 @@ body {
 	}
 }
 
+header {
+	margin: 1em auto;
+	text-align: center;
+}
+
+.header {
+	display: inline-block;
+}
+
+hr {
+	color: #0F0;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+header a:hover { color: #0F0; }
+
 h1 {
 	text-align: center;
-	font-size: 2em;
 	font-weight: normal;
+	margin: 0.5em;
 }
 
-p {
-	font-size: 1em;
-}
-
-@font-face {
-	font-family: Inconsolata;
-	src: url(fonts/Inconsolata-Regular.ttf);
+img {
+	height: 5em;
 }
