@@ -54,3 +54,16 @@ h1 {
 img { 
 	width: 25%;
 }
+
+ul {
+	list-style-type: none;
+}
+
+ul li::before {
+	content: "+";
+	color: #0F0;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}

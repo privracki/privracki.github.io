@@ -1,0 +1,4 @@
+#!/usr/bin/sh
+
+magick convert -background transparent -gravity center \
+	input.png -resize 200x200 -extent 200x200 output.webp
