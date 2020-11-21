@@ -53,6 +53,7 @@ h1 {
 
 img { 
 	width: 25%;
+	display: none;
 }
 
 img:hover {
