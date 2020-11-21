@@ -1,0 +1,4 @@
+#!/bin/sh
+
+magick mogrify -background transparent -gravity center \
+	-resize 200x200 -extent 200x200 -format webp *
