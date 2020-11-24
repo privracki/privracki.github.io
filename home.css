@@ -9,15 +9,6 @@ body {
 	line-height: 1.1em;
 }
 
-@media (max-width: 500px) {
-	body {
-		font-size: 14px;
-	}
-	.thumb {
-		width: 50%;
-	}
-}
-
 header {
 	margin: 1em auto;
 	text-align: center;
@@ -82,3 +73,13 @@ ul li::before {
 span {
 	color: #0F0;
 }
+
+@media (max-width: 500px) {
+	body {
+		font-size: 14px;
+	}
+	.thumb {
+		width: 50%;
+	}
+}
+
