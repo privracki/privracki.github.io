@@ -13,6 +13,9 @@ body {
 	body {
 		font-size: 14px;
 	}
+	.thumb {
+		width: 50%;
+	}
 }
 
 header {
@@ -27,6 +30,12 @@ header {
 hr {
 	color: #0F0;
 }
+
+a {
+	text-decoration: underline;
+	color: white;
+}
+a:hover { color: #0F0; }
 
 header a {
 	text-decoration: none;
@@ -66,5 +75,5 @@ ul li::before {
 }
 
 span {
-	color: green;
+	color: #0F0;
 }
