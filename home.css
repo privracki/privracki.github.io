@@ -68,10 +68,15 @@ ul li::before {
 
 .thumb { 
 	width: 25%;
+	margin: 0;
 }
 
 .thumb:hover {
 	opacity: 0.8;
+}
+
+.thumblink {
+	margin: 0;
 }
 
 span {
