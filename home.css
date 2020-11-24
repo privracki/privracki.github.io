@@ -59,7 +59,6 @@ ul li::before {
 
 .thumb { 
 	width: 25%;
-	display: none;
 }
 
 .thumb:hover {
