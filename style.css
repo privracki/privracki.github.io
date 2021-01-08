@@ -12,6 +12,11 @@ body {
 header {
 	text-align: center;
 }
+#title {
+	color: white;
+	text-decoration: none;
+}
+#title:visited { color: white; }
 
 .thumb { 
 	width: 25%;
