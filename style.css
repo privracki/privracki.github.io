@@ -9,9 +9,9 @@ body {
 	line-height: 1.1em;
 }
 
-a {
-	color: "#bbffbb";
-}
+a { color: "#bbffbb"; }
+a:hover { color: "#bbffbb"; }
+a:visited { color: "#bbffbb"; }
 
 /* white title */
 header {
