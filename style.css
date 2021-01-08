@@ -26,6 +26,7 @@ header > a {
 	color: white;
 }
 header > a:hover { color: #0F0; }
+header > a:visited { color: #FFF; }
 
 ul {
 	list-style-type: none;
