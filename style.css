@@ -1,5 +1,5 @@
 body {
-	font-family: "Latin Modern", "Times New Roman", serif;
+	font-family: "Latin Modern Roman", "Times New Roman", serif;
 	background-color: black;
 	color: white;
 	margin: 0 auto;
@@ -13,23 +13,19 @@ header {
 	text-align: center;
 }
 
-hr {
+a {
+	text-decoration: underline;
+	color: #0F0;
+}
+a:visited {
 	color: #0F0;
 }
 
-a {
-	text-decoration: underline;
-	color: green;
-}
-a:visited {
-	color: green;
-}
-
-header a {
+header > a {
 	text-decoration: none;
 	color: white;
 }
-header a:hover { color: #0F0; }
+header > a:hover { color: #0F0; }
 
 ul {
 	list-style-type: none;
@@ -54,9 +50,6 @@ ul li::before {
 .thumblink {
 	margin: 0;
 	width: 25%;
-}
-#gal {
-	font-size: 0;
 }
 
 @media (max-width: 500px) {
