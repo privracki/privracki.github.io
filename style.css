@@ -9,6 +9,11 @@ body {
 	line-height: 1.1em;
 }
 
+a {
+	color: "#bbffbb";
+}
+
+/* white title */
 header {
 	text-align: center;
 }
@@ -18,6 +23,7 @@ header {
 }
 #title:visited { color: white; }
 
+/* gallery */
 .thumb { 
 	width: 25%;
 	margin: 0;
@@ -31,6 +37,7 @@ header {
 font-size: 0
 }
 
+/* mobile display */
 @media (max-width: 500px) {
 	body {
 		font-size: 14px;
