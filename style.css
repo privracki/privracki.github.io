@@ -13,44 +13,17 @@ header {
 	text-align: center;
 }
 
-a {
-	text-decoration: underline;
-	color: #0F0;
-}
-a:visited {
-	color: #0F0;
-}
-
-header > a {
-	text-decoration: none;
-	color: white;
-}
-header > a:hover { color: #0F0; }
-header > a:visited { color: #FFF; }
-
-ul {
-	list-style-type: none;
-}
-
-ul li::before {
-	content: "+";
-	color: #0F0;
-	font-weight: bold;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
-}
-
 .thumb { 
 	width: 25%;
 	margin: 0;
 }
-.thumb:hover {
-	opacity: 0.8;
-}
+.thumb:hover { opacity: 0.8; }
 .thumblink {
 	margin: 0;
 	width: 25%;
+}
+#imageGrid {
+font-size: 0
 }
 
 @media (max-width: 500px) {
