@@ -27,6 +27,7 @@ header a {
 }
 #imageGrid a img:hover { opacity: 0.8; }
 #imageGrid { font-size: 0; }
+#imageGrid a { font-size: 0; }
 
 /* mobile display */
 @media (max-width: 600px) {
